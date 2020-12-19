@@ -1,0 +1,74 @@
+body {
+  background-color: #E8E8E8;
+}
+
+#vision-board {
+  width: 1200px;
+  height: 850px;
+  overflow: auto;
+  margin: 50px auto;
+  background-image: url("../img/background.png");
+  background-size: cover;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.block {
+  float: left;
+  width: 400px;
+  box-sizing: border-box;
+}
+
+.small-block {
+  height: 210px;
+  padding: 20px 40px;
+}
+
+.large-block {
+  height: 430px;
+  padding: 70px 40px;
+}
+
+.right {
+  text-align: right;
+}
+
+.center {
+  text-align: center;
+}
+
+.light-bg {
+  background-color: #FFFFFF;
+}
+
+.dark-bg {
+  background-color: #3B3B3B;
+  color: #ffffff;
+}
+
+.title {
+  font-size: 30px;
+  margin: 10px 0
+}
+
+.marker {
+  font-family: 'Permanent Marker', cursive;
+  font-weight: normal;
+}
+
+.highlight {
+  background-color: #FFF44F;
+  padding: 5px 10px;
+}
+
+strong {
+  font-size: 38px;
+  text-transform: none;
+  line-height: 38px;
+}
+
+.top-padding {
+  padding-top: 40px;
+}
